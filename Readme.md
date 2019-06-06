@@ -24,7 +24,7 @@ Repository folders:
 
 ## Hardware requirements
 
-  - [Agro-sensor system, developed at the University of Ibagué.](https://www.youtube.com/watch?v=UN_PwREh9Nc&t=20s)
+  - [Agro-sensor system, developed at the University of Ibagué.](https://sites.google.com/a/unibague.edu.co/si2c/species-description)
    - Arduino Mega 2560
   -  Raspberry Pi 3 
 
