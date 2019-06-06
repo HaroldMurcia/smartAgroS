@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+        <head>
+           <title>
+            {{ title }}
+           </title>
+           <style>
+            body
+
+            {
+                font-family: arial,verdana,sans-serif,Georgia, "Times New Roman", Times, serif;
+                 background:#cceeff;
+
+            }
+            h1
+            {
+                text-shadow: 5px 5px 5px #aaaaaa;
+            }
+           </style>
+        </head>
+
+	<body>
+                <br></br>
+                <div>
+                 <img src="static/Agrodata.png"  alt="Raspberry Pi Cluster$"/>
+                </div>
+       
+                 <br></br>
+		<h2>{{response }}</h2> 
+		<h2>LUZ:{{FL}}</h2>
+		<h2>TEMPERATURA:{{DST}}</h2>
+		<h2>HUMEDAD:{{HS}}</h2>
+                <h2>TANQUE:{{TQ}}</h2>
+                <h2>RIEGO:{{RI}}</h2>
+		<meta http-equiv="refresh" content="8">
+                <br></br>
+		<a href="/"><img src="static/Regresar.png" alt="Raspberry Pi Cluste$"/></a>
+
+                 <footer>
+                        <div class="container">
+                                <div class="row">
+                                        <p clas="copyright text-muted">&copy; Universidad Ibague 2018</p>
+
+                                </div>
+                        </div>
+                 </footer>
+	
+		
+
+
+        
+	</body>
+</html>

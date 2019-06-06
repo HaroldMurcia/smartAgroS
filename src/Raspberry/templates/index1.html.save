@@ -1,0 +1,33 @@
+
+
+<html>
+
+   <!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>
+            {{ title }}
+        </title>
+        <style>
+            body
+
+            {
+                font-family: arial,verdana,sans-serif,Georgia, "Times New Roman", Times, serif;
+                background:#cceeff;
+            }
+            h1
+            {
+                text-shadow: 5px 5px 5px #aaaaaa;
+            }
+        </style>
+    </head>
+    <body>
+    <center> 
+       <h1> {{title}} </h1>
+       <img src=" url_for('static',/img/sensor.jpg"  height="300" width="500" alt="Raspberry Pi Cluster" />
+       <h2> Date: {{ time }}</h2>
+       <tr><h3><td><p align ="center"> <a href ="read"> Ver Datos <br>
+</a></p></td></tr>
+    </center>
+    </body>
+</html>

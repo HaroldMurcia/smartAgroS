@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+ <html lang="es">
+    <head>
+       
+        <meta charset="utf-8" />  
+       <title>
+            {{ title }}
+        </title>
+        <style>
+            body
+
+            {
+                font-family: arial,verdana,sans-serif,Georgia, "Times New Roman", Times, serif;
+                 background:#cceeff;
+
+            }
+            h1
+            {
+                text-shadow: 5px 5px 5px #aaaaaa;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+       <br></br>
+       <div>
+       <img src="static/sensor.png"  height="230" width="700" alt="Raspberry Pi Cluster$"/>
+       </div>
+       <br></br>
+       <table style ="width:50%"><tr><h2><th>
+         <script type="text/javascript">
+         //<![CDATA[
+         var date = new Date();
+         var d  = date.getDate();
+         var day = (d < 10) ? '0' + d : d;
+         var m = date.getMonth() + 1;
+         var month = (m < 10) ? '0' + m : m;
+         var yy = date.getYear();
+         var year = (yy < 1000) ? yy + 1900 : yy; 
+         function startTime(){
+         today=new Date();
+         h=today.getHours();
+         m=today.getMinutes();
+         s=today.getSeconds();
+         m=checkTime(m);
+         s=checkTime(s);
+         document.getElementById('reloj').innerHTML=h+":"+m+":"+s; 
+         t=setTimeout('startTime()',500);}
+         function checkTime(i)
+         {if (i<10) {i="0" + i;}return i;}
+          window.onload=function(){startTime();}  
+          document.write("Fecha:"," ", day + "/" + month + "/" + year);
+         //]]>
+        </script>  
+       <div id="reloj"></div> </th></tr></table>
+
+     
+     <!--<table style ="width:30%"><tr><h2><th>Fecha:{{Fecha}}</th><h2><th>Hora:{{Hora}}</th></tr></table>-->
+      
+       <br></br>  
+        <h2>LUZ:{{FL}}</h2>
+        <h2>TEMPERATURA:{{DST}}</h2>
+        <h2>HUMEDAD:{{HS}}</h2>
+        <h2>TANQUE:{{TQ}}</h2>
+        <h2>RIEGO:{{RI}}</h2>
+        
+        <h2> MOTOBOMBA:</h2>
+        <h3>
+        <a href="/on" class="button"><img src="static/ON.png" ></a>
+        <a href="/off"class="button"><img src="static/OFF.png"></a>
+        </h3>
+        <h3>Si esta usando la motobomba de Regresar cuando termine!</h3>
+        <a href="/"><img src="static/Regresar.png" alt="Raspberry Pi Cluste$"/></a>
+       <meta http-equiv="refresh" content="8">
+       <footer>
+			<div class="container">
+				<div class="row">
+					<p clas="copyright text-muted">&copy; Universidad Ibague 2018</p>
+			
+				</div>
+			</div>
+		</footer>	
+    </center>
+    </body>
+</html>
+
