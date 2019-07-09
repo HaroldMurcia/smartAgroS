@@ -3,6 +3,10 @@
 
 This repository contents a decision support system for intelligent irrigation in crops from a low-cost Agroclimatic station, based on Arduino, Raspberry and Machine Learning. 
 
+* [Watch the video on Youtube](https://www.youtube.com/watch?v=xa9odZJ_yn8&t=1s)
+
+![Texto alternativo](https://07b9c115-a-fcc4366d-s-sites.googlegroups.com/a/unibague.edu.co/si2c/species-description/IMG_3761.JPG?attachauth=ANoY7crX4ykCUgEHrCHMISnboiAijlKtD4xTY4IBY_Cgiwa_bGgARrMVnUlcg5ah3wq_tT5RKaaOjrtQwwkpAHAm1oExdg9gI5J4A6dReK0whhPFlDmK2dbEWJXzaiZyhE3u5c1eKMb7oc80Ofb5weRj0po4itToo_MJZojMc60Am4WXF69XdE_PfEhmQogQRS0Q2HQNoVAVhWcKwW4ZBqH4YyScuiPh-Y3lRldLGqxbChGOVb1GwZg%3D&attredirects=0)
+
 Repository folders:
 ```
 /yourRoot    -path
